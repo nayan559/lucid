@@ -1,0 +1,879 @@
+
+
+/*==============================
+  ==============================
+* Author Name: NAYAN DAS
+* Author URL: nayandas.com
+* Theme URL: nayandas.com/
+* Skype: 
+* Description: 
+  ==============================
+  ==============================*/
+  
+
+/*==============================
+  ==============================
+* 01: Global CSS;
+* 02: Hearder Section CSS;
+* 03: Product Overview Section CSS;
+* 04: Dip Details Section CSS;
+* 05: Super easy to customize Section CSS;
+* 06: Pricings & Plans Section Start CSS;
+* 07: Get this great theme Section CSS;
+* 08: Price Section CSS;
+* 09: Contuct Us Section CSS;
+* 10: Footer Secton CSS;
+  ==============================
+  ==============================*/
+
+
+/*01: Global CSS Start */
+
+/*
+Button and Title Color - #008ed6;
+Font Color - #999999;
+ */
+
+/*Google Fonts Quicksand Source Sans Pro*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500,600,700|Source+Sans+Pro:300,400,600,700,900&display=swap');
+button:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+}
+.navbar-toggler {
+    border: 0px solid transparent;
+}
+.container {
+    width: 100%;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+	color: #1a1a1a;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+	font-size: 36px;
+	color: #1a1a1a;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+	font-size: 24px;
+	color: #1a1a1a;
+	font-weight: 700;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h4{
+	color: #1a1a1a;
+	font-weight: 500;
+	font-size: 18px;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h5{
+	color: #9c959561;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+	margin: 0;
+}
+.detail{
+	font-size: 18px;
+	color: #999999;
+	font-weight: 500;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.title{
+	font-size: 16px;
+	font-weight: 700;
+	color: #008ed6;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+a{
+	color: #fff;
+	transition: 0.4s;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.fas{
+	color: #008ed6;
+}
+.custome-btn{
+	background-color: #008ed6;
+	border-color: #008ed6;
+	width: 160px;
+	height: 52px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 12px;
+	border-radius: 3px;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.custome-btn:hover{
+	background-color: #f0f8ff00;
+	border-color: #8888888c;
+	color: #fff;
+}
+section{
+	/*padding: 80px 0px;*/
+}
+/*01: Global CSS End*/
+
+
+/* Back To Top Button CSS */
+#button {
+  display: inline-block;
+  background-color: #008ed6;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button::after {
+  content: "\f106";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
+}
+.show{
+	display: inline-block !important;
+}
+
+
+/*02: Hearder and Hero Section Start CSS;*/
+.header{
+	background: url(../img/banner/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+	min-height: 100vh;
+}
+.navbar {
+    padding: 30px 0px 0px 0px;
+    transition: 0.4s;
+}
+.scroll-nav {
+    background-color: #303035;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+.nav-link {
+	position: relative;
+	font-weight: 600;
+	transition: 0.4s;
+    display: block;
+    padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 30px;
+}
+.nav-item img {
+    position: absolute;
+    left: 24px;
+    bottom: 2px;
+    width: 59%;
+}
+.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    line-height: 2;
+}
+a:hover {
+    color: #008ed6;
+}
+.active{
+	color: #008ed6;
+}
+.fa-bars{
+	color: #fff;
+}
+.hero-content{}
+.hero-info{
+    padding: 300px 0 300px 0;
+}
+.hero-info .title{
+	padding-bottom: 20px;
+}
+.hero-info .hero-heading{
+	padding-bottom: 20px;
+}
+.hero-info .hero-detail{
+	padding-bottom: 50px;
+}
+.hero-btn{}
+.btn-downlod{
+	margin-right: 15px;
+}
+.btn-feature{
+	background-color: #f0f8ff00;
+	border-color: #8888888c;
+}
+.btn-feature:hover{
+	background-color: #008ed6;
+	border-color: #008ed6;
+}
+.hero-img{
+	padding: 406px 0 0 0;
+}
+.hero-img img{
+	width: 100%;
+}
+
+/*02: Hearder and Hero Section Start CSS*/
+
+
+/*03: Product Overview Section CSS Start*/
+.product{
+    margin-top: 80px;
+}
+.product-heading{}
+.product-heading p{}
+.product-heading{
+	text-align: center;
+}
+.product-heading img{}
+.product-responsive{
+	text-align: center;
+	padding-top: 75px;
+}
+.responsive-icon{
+	width: 90px;
+	height: 90px;
+	border: 1px solid #9c959561;
+	border-radius: 100%;
+	line-height: 88px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.responsive-icon a{
+	font-size: 40px;
+}
+.responsive-detail{}
+.responsive-heading{
+	padding-bottom: 10px;
+}
+.responsive-deatil{}
+.border {
+    margin-top: 80px;
+}
+/*03: Product Overview Section CSS End*/
+
+
+/*04: Dip Details Section CSS Start*/
+.dip-detail-img{}
+.dip-detail-img img{
+
+}
+.dip-detail{margin: 80px 0;}
+.more-detail{
+	padding-top: 90px;
+}
+.more-detail p{}
+.more-detail h2{}
+.more-detail img{}
+.more-detail .more-info{
+	padding-top: 10px;
+}
+.options{
+	padding-top: 35px;
+}
+.options i{}
+.options h4{
+	display: inline;
+	margin-bottom: 14px;
+}
+.options .fa-trophy{
+	padding-right: 10px;
+}
+.options .fa-mouse{
+	padding-right: 17px;
+}
+.options .fa-bolt{
+	padding-right: 19px;
+}
+.options .fa-tachometer-alt{
+	padding-right: 9px;
+}
+.incon{
+	padding-bottom: 10px;
+}
+/*04: Dip Details Section CSS End*/
+
+
+/*05: Super easy to customize Section CSS Start*/
+.easy-customize{
+	background-color: #f2f2f2;
+	padding: 80px 0;
+}
+.customize-detail{
+	padding-top: 55px;
+}
+.customize-detail p{}
+.customize-detail h2{}
+.customize-detail img{}
+.customize-detail .customize-info{
+	padding-top: 10px;
+}
+.customize-image{}
+.customize-image img{
+}
+/*05: Super easy to customize Section CSS End*/
+
+
+/*06: Pricings & Plans Section Start CSS Start*/
+.price-plan{
+	background: url(../img/banner/banner02.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 80px 0;
+}
+.price-plan-heading{
+	text-align: center;
+}
+.price-plan-heading p{}
+.price-plan-heading h2{
+	color: #fff;
+}
+.testimonial{
+    padding: 75px 45px 0px 0;
+}
+.testimonial-detail {
+    color: #fff;
+    font-style: italic;
+    padding-bottom: 35px;
+}
+.testi-info {
+    padding: 20px 0px 0px 20px;
+}
+.testi-info h4{
+    color: #fff;
+}
+.testi-info h6{
+	color: #fff;
+}
+.owl-carousel .owl-item img {
+    margin: 0 auto;
+}
+.owl-carousel.owl-drag .owl-item {
+	padding: 0px 30px 0 0;
+	margin-top: 55px;
+    margin-bottom: 55px;
+}
+/*06: Pricings & Plans Section Start CSS End*/
+
+
+/* 07: Get this great theme Section CSS Start*/
+.get-theme{
+	background-color: #15141a;
+	padding: 50px 0;
+}
+.get-theme-heading{
+	color: #fff;
+}
+.get-theme-heading span {
+    font-weight: 300;
+}
+.get-theme-btn {
+    text-align: center;
+}
+.features {
+	background-color: #f0f8ff00;
+	border-color: #8888888c;
+    margin-right: 15px;
+}
+.features:hover {
+	background-color: #008ed6;
+	border-color: #008ed6;
+}
+.download{}
+/* 07: Get this great theme Section CSS End*/
+
+
+/*08: Price Section CSS Start*/
+.price{
+    padding: 80px 0;
+}
+.price-heading{
+	text-align: center;
+}
+.price-heading p{}
+.price-heading h2{}
+.price-heading img{}
+.free {
+    margin-top: 75px;
+    border: 1px solid #9c959561;
+}
+.free:hover{
+	cursor: pointer;
+}
+.free .heading h3{
+    text-align: center;
+    padding: 25px 12px;
+    border-bottom: 1px solid #9c959561;
+    transition: 0.6s;
+}
+.free:hover h3{
+	color: #008ed6;
+}
+.free .amount{
+	text-align: center;
+	padding: 35px 12px;
+	border-bottom: 1px solid #9c959561;
+	transition: 0.6s;
+}
+.free:hover .amount{
+	background-color: #008ed6;
+}
+.amount .position{
+	font-size: 60px;
+	padding: 0;
+	position: relative;
+	transition: 0.6s;
+}
+.free:hover .amount .position{
+	color: #fff;
+}
+.position::before{
+	content: '$';
+	position: absolute;
+	left: 84px;
+	top: 5px;
+	color: #1a1a1a;
+	font-size: 32px;
+	font-weight: 400;
+	transition: 0.6s;
+}
+.free:hover .position::before{
+	color: #fff;
+}
+.new::before{
+	content: '$';
+	position: absolute;
+	left: 68px;
+	top: 5px;
+	color: #1a1a1a;
+	font-size: 32px;
+	font-weight: 400;
+	transition: 0.6s;
+}
+.amount .mounth{
+	transition: 0.6s;
+}
+.free:hover .amount .mounth{
+	color: #fff;
+}
+.info{
+	text-align: center;
+	padding: 35px 12px;
+}
+.info-detail{
+	padding-bottom: 35px;
+}
+.info-detail span{
+	color: #008ed6;
+}
+.order-now-btn{
+	background-color: transparent;
+	border: 1px solid #9c959561;
+	color: #008ed6;
+	font-weight: 700;
+}
+.free:hover .order-now-btn{
+	background-color: #008ed6;
+	color: #fff;
+}
+/*08: Price Section CSS End*/
+
+
+/*09: Contuct Us Section CSS Start*/
+.contact{
+	background-color: #ededed;
+	padding: 80px 0px 0px 0px;
+}
+.contact-heading{
+	text-align: center;
+}
+.contact-heading h2{}
+.contact-heading img{}
+.mobile-info{
+	text-align: center;
+	padding: 75px 0 75px 0;
+}
+.mobile-info a{
+	font-size: 40px;
+}
+.mobile-info .number{
+	margin-top: 10px;
+}
+.mobile-info .number p{
+	color: #999999;
+}
+.mail-info{
+}
+.lucid-form{
+    margin-bottom: -50px;
+}
+.form-bg{
+	background-color: #15141a;
+	padding: 30px 30px;
+	position: relative;
+	z-index: 2;
+	width: 65%;
+	margin: 0 auto;
+}
+.form-control {
+    padding: 26px 15px;
+    margin-bottom: 18px;
+    color: #9c959561;
+    background-color: #fff0;
+    border: 1px solid #9c959561;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff0;
+    background-color: #fff0;
+    border-color:  #fff0;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(202, 202, 202, 0.25);
+}
+.btn-submit{
+	display: flex;
+	justify-content: flex-end;
+}
+.embed-responsive {
+    height: 400px;
+}
+/*09: Contuct Us Section CSS End*/
+
+
+/*10: Footer Secton CSS START*/
+.footer{
+	background-color: #15141a;
+	padding: 35px 0;
+}
+.social-icon{
+	padding-bottom: 10px;
+}
+.social-icon ul {	
+	text-align: center;
+}
+.social-icon ul li{
+	display: inline;
+	padding: 0 15px;
+}
+.fa-behance, .fa-dribbble, .fa-twitter, .fa-facebook-f, .fa-linkedin-in{
+	color: #9c959561;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.fa-behance:hover, .fa-dribbble:hover, .fa-twitter:hover, .fa-facebook-f:hover, .fa-linkedin-in:hover{
+	color: #008ed6;
+    transform: scale(1.5);
+}
+.footer-info{
+	text-align: center;
+}
+.footer-info a{
+	color: #9c959561;
+}
+
+/*10: Footer Secton CSS END*/
+
+
+/*==============================*/
+/*==============================*/
+/*=====  Media Query Start =====*/
+/*==============================*/
+/*==============================*/
+
+
+.navbar-collapse {
+    text-align: center;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+	.hero-img {
+	    padding: 453px 0 0 0;
+	}
+	.hero-info {
+	    padding: 450px 0 450px 0;
+	}
+	.more-detail {
+	    padding-top: 40px;
+	}
+	.features {
+	    margin-right: 0px;
+	    margin-bottom: 15px;
+	}
+	.position::before {
+	    left: 62px;
+	}
+	.new::before {
+	    left: 45px !important;
+	}
+	.testi-info {
+	    padding: 9px 0px 0px 17px;
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.hero-info {
+	    padding: 320px 0 0px 0;
+	}
+	.hero-info .hero-heading {
+	    
+	}
+	.hero-img {
+	    display: none;
+	}
+	.navbar{
+		padding: 10px 0px 5px 0px;
+		background-color: #303035;
+	}
+	.navbar-nav {
+	    text-align: end; 
+	}
+	.nav-item {
+	    padding-bottom: 8px;
+	    padding-right: 16px;
+	}
+	.more-detail {
+	    padding-top: 0px;
+	}
+	.dip-detail-img img {
+	    margin-top: 48px;
+	}
+	.customize-image img {
+	    margin-top: 123px;
+	}
+	.testimonial-info {
+	    padding-top: 7px;
+	}
+	.features {
+	    margin-bottom: 15px;
+	}
+	.position::before {
+	    left: 122px;
+	}
+	.new::before {
+	    left: 106px !important;
+	}
+	.form-bg { 
+	    width: 90% !important;
+	}
+	.testi-info {
+	    padding: 0px 0px 0px 17px;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.hero-content {
+	    padding-top: 205px;
+	}
+		.hero-info {
+	    padding: 0px 0 0px 0;
+	}
+	.hero-info {
+	    text-align: center;
+	}
+	.more-detail {
+	    padding-top: 0px; 
+	    text-align: center;
+	}
+	.options h4 {
+	    display: block;
+	}
+	.customize-detail {
+	    padding-top: 0px; 
+	    text-align: center;
+	}
+	.dip-detail-img img {
+	    display: none;
+	}
+	.customize-image img {
+	     margin-top: 0; 
+	}
+	.get-theme-heading {
+	    text-align: center;
+	    margin-bottom: 35px;
+	}
+	.testimonial-info {
+	    padding-top: 7px;
+	}
+	.features {
+	    margin-right: 15px;
+	    margin-bottom: 0px; 
+	}
+	.position::before {
+	    left: 75px;
+	}
+	.new::before {
+	    left: 60px !important;
+	}
+	.form-bg { 
+	    width: 100% !important;
+	}
+	.form-bg {
+	    padding: 30px 0px;
+	}
+	.lucid-form{
+        margin: 50px 0 50px 0;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.hero-info .hero-heading {
+	    font-size: 35px;
+	}
+	.product-heading{
+	    font-size: 30px;
+	}
+	.more-detail h2{
+		font-size: 30px;
+	}
+	.more-detail h2{
+		font-size: 30px;
+	}
+	.more-detail h2{
+		font-size: 30px;
+	}
+	.get-theme-heading{
+		font-size: 30px;
+	}
+	.price-plan-heading h2{
+		font-size: 30px;
+	}
+	.price-heading h2{
+		font-size: 30px;
+	}
+	.get-theme-heading span{
+		font-size: 30px;
+	}
+	.contact-heading h2{
+		font-size: 30px;
+	}
+	.customize-detail h2{
+		font-size: 30px;
+	}
+	.product-responsive {
+	    padding-top: 50px;
+	}
+	.responsive-detail {
+	    width: 290px;
+	    margin: 0 auto;
+	}
+	.price-heading {
+	    margin-bottom: 50px;
+	}
+	.testimonial {
+	    padding: 75px 0px 0px 0;
+	}
+	.owl-carousel .owl-item img {
+	    width: 30%;
+	}
+	.free {
+	    margin-top: 0px;
+	    border: 1px solid #9c959561;
+	    width: 290px;
+	    margin: 0 auto;
+	    margin-bottom: 35px;
+	}
+	.position::before {
+	    left: 102px;
+	}
+	.new::before {
+	    left: 86px !important;
+	}
+	.mobile-info {
+	    padding: 50px 0 0;
+	}
+	.btn-submit {
+	    justify-content: center;
+	}
+	.embed-responsive {
+	    height: 300px;
+	}
+	.testimonial-detail {
+	    text-align: center;
+	}
+	.testi-info {
+	    padding: 15px 0px 0px 17px;
+	    text-align: center;
+	}
+}
+
+@media (max-width: 368.98px) {
+	.hero-content {
+	    padding-top: 150px;
+	}
+	.hero-info hr{
+		display: none;
+	}
+	.hero-content {
+	    padding-top: 45px;
+	}
+	.hero-info {
+	    padding: 80px 0px 80px;
+	}
+	.btn-downlod {
+	    margin-right: 0px;
+	    margin-bottom: 15px !important;
+	    display: block;
+	    margin: 0 auto;
+	}
+	.features {
+	    margin-right: 0px;
+	    margin-bottom: 15px !important;
+	    display: block;
+	    margin: 0 auto;
+	}
+}
+
